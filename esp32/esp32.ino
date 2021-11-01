@@ -33,8 +33,7 @@ int currentWaveForm[NUMBER_OF_SAMPLES];
 
 const char *ssid = "severino";
 const char *password = "17210000";
-const char *serverName = "http://192.168.0.40:5000/time_series";
-// const char *serverName = "https://smart-energy-backend.herokuapp.com/time_series";
+const char *serverName = "http://192.168.0.40:1880/time_series";
 
 #define SIZE_PAYLOAD 4098
 char payload[SIZE_PAYLOAD];
@@ -88,7 +87,7 @@ void loop()
 
   process_wave_form();
   // Serial.println("offsetI: " + String(offsetI, 6));
-  // Serial.println("power: " + String(power, 6));
+  Serial.println("power: " + String(power, 6));
 
   DynamicJsonDocument JSONencoder(SIZE_PAYLOAD);
   JSONencoder["power"] = power;
@@ -100,7 +99,7 @@ void loop()
   }
 
   serializeJson(JSONencoder, payload);
-  Serial.println(payload);
+  // Serial.println(payload);
 
   //Check WiFi connection status
   if (WiFi.status() == WL_CONNECTED)
