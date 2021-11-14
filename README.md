@@ -2,7 +2,7 @@
 Firmwares to boards of IoT for monitoring residential energy consumption
 
 ## Overview
-![overview_moaci](https://user-images.githubusercontent.com/23506996/137499266-cfcdab49-31ff-4348-a0c7-3f9e889b716b.png)
+![CICI](https://user-images.githubusercontent.com/23506996/141697424-b0a88e59-83dd-4c42-9c12-c8cf9c034597.png)
 
 ## Sensor Node
 ![overview_sensor_node](https://user-images.githubusercontent.com/23506996/137499330-b6c1b356-963d-4195-ab72-03dfadf10518.png)
