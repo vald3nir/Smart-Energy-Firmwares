@@ -22,8 +22,8 @@
 
 // =========================================================================================
 
-double offsetI = 335.0; //Low-pass filter output [ADC_COUNTS >> 1]
-double offsetV = 510.0; //Low-pass filter output [ADC_COUNTS >> 1]
+double offsetI = 335.0; // Low-pass filter output [ADC_COUNTS >> 1]
+double offsetV = 510.0; // Low-pass filter output [ADC_COUNTS >> 1]
 
 double sumI = 0.0f, sumV = 0.0f, sumP = 0.0f;
 
@@ -83,18 +83,16 @@ void setup()
 void loop()
 {
 
-  /*
-  process_wave_form();
-  Serial.println("offsetI: " + String(offsetI, 6));
-  Serial.println("offsetV: " + String(offsetV, 6));
-  Serial.println("current: " + String(current, 6));
-  Serial.println("voltage: " + String(voltage, 6));
-  Serial.println("real_power: " + String(real_power, 6));
-  Serial.println("apparent_power: " + String(apparent_power, 6));
-  Serial.println("power_factor: " + String(power_factor, 6));
-  Serial.println("\n");
-  delay(250);
-  */
+  // process_wave_form();
+  // Serial.println("offsetI: " + String(offsetI, 6));
+  // Serial.println("offsetV: " + String(offsetV, 6));
+  // Serial.println("current: " + String(current, 6));
+  // Serial.println("voltage: " + String(voltage, 6));
+  // Serial.println("real_power: " + String(real_power, 6));
+  // Serial.println("apparent_power: " + String(apparent_power, 6));
+  // Serial.println("power_factor: " + String(power_factor, 6));
+  // Serial.println("\n");
+  // delay(250);
 
   if (Serial.available() > 0 && Serial.read() == ACTIVATION_CHARACTER)
   {
