@@ -6,11 +6,11 @@
 // MQTT Setup
 // =========================================================================================
 
-#define TOPIC_MQTT_SUBSCRIBE "/smart_energy/subscribe/client/Valdenir"
-#define TOPIC_MQTT_PUBLISH "/smart_energy/publish/client/Valdenir"
-#define ID_MQTT "SensorNodeValdenir"
+#define TOPIC_MQTT_SUBSCRIBE "/smart_energy/subscribe/client/a32ab0af-970c-11ec-9779-a463a116a9e2"
+#define TOPIC_MQTT_PUBLISH "/smart_energy/publish/client/a32ab0af-970c-11ec-9779-a463a116a9e2"
+#define ID_MQTT "a32ab0af-970c-11ec-9779-a463a116a9e2"
 
-const char *SSID = "severino";
+const char *SSID = "dev severino";
 const char *PASSWORD = "17210000";
 
 const char *BROKER_MQTT = "broker.hivemq.com";

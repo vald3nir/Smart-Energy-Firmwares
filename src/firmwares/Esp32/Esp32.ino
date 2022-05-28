@@ -31,7 +31,7 @@ int currentWaveForm[NUMBER_OF_SAMPLES];
 
 // =========================================================================================
 
-const char *ssid = "severino";
+const char *ssid = "dev severino";
 const char *password = "17210000";
 const char *serverName = "http://192.168.0.40:1880/time_series";
 

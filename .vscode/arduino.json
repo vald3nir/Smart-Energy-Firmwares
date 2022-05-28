@@ -1,5 +1,6 @@
 {
     "port": "COM3",
     "board": "arduino:avr:uno",
-    "programmer": "arduino:avrispmkii"
+    "programmer": "arduino:avrispmkii",
+    "sketch": "src\\firmwares\\Arduino\\Arduino.ino"
 }
